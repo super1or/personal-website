@@ -1,0 +1,14 @@
+@media (min-width: 400px) {
+
+.portfolio_container {
+    
+}   
+
+.portfolio_img {
+    background-image: url(portfolio/collage.jpg);
+    background-repeat: no-repeat;
+    background-size: 1349px;
+    height: 1349px;
+}
+    
+}

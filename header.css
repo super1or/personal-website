@@ -1,0 +1,38 @@
+@media (min-width: 400px) {
+    
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: repeat(8fr);
+}
+
+.container {
+   background-image: url(project_imgs/carousel_main.jpg);
+   position: relative;
+   height: 750px;
+   background-size: cover;
+    
+}
+
+.nav_btns {
+    
+    float: right;
+    margin: 30px 15px;
+}
+
+.nav_btns > a {
+    padding: 15px;
+    text-decoration: none;
+    color: #edeff2;
+    
+}
+}
+
+
+

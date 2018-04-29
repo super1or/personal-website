@@ -1,0 +1,25 @@
+@media (min-width: 400px) {
+    
+.about_me_container {
+    max-width: auto;
+    color: #211e1c;
+    background-color: #eae5e1;
+    font-size: 18px;
+  
+}
+
+.headers {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #3d3630;
+}
+
+img {
+    width: 250px;
+    float: left;
+    margin: 0 10px 100px 20px;
+}
+
+}

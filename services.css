@@ -1,0 +1,33 @@
+@media (min-width: 400px) {
+
+.services {
+    max-width: auto;
+    background-color: #e0d9d2;
+}
+
+.services_wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+    align-content: center;
+    margin: 0 50px 100px 50px;
+    
+    
+}
+
+.items {
+    border: 1px solid;
+    border-radius: 3px;
+    height: 200px;
+    padding: 10px;
+    text-align: justify;
+    color: #442f1a;
+}
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: #261504;
+}
+
+}

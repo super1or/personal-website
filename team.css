@@ -1,0 +1,27 @@
+@media (min-width: 400px) {
+    
+.text_align {
+    text-align: center;
+    margin-bottom: 75px;
+}    
+
+.team_container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 50px;
+    justify-content: space-evenly;
+}    
+
+.team_container > div {
+    height: 300px;
+    border: 2px solid white;
+    
+}
+
+.team_imgs  {
+    width: 300px;
+    height: 300px;
+
+}
+
+}

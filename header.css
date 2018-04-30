@@ -1,7 +1,9 @@
 @media (min-width: 400px) {
     
 body {
+    max-width: 1349px;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -13,9 +15,9 @@ body {
 }
 
 .container {
-   background-image: url(project_imgs/carousel_main.jpg);
+   background-image: url(project_imgs/carousel_logo.jpeg);
    position: relative;
-   height: 750px;
+   height: 1000px;
    background-size: cover;
     
 }

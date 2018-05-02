@@ -1,27 +1,71 @@
-@media (min-width: 400px) {
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1600px) {
     
 .about_me_container {
-    max-width: auto;
+    max-width: 100%;
     color: #e8e3e3;
     background-color: #2b2a2a;
+    background-size: cover;
     font-size: 18px;
+    margin: 0;
+    padding-bottom: 20px;
   
 }
 
 .headers {
     font-size: 46px;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
     color: #050404;
+    padding: 100px 0 20px 0;
 }
 
 .about_pic {
-    width: 350px;
+    width: 300px;
     float: left;
-    margin: 0 10px 100px 20px;
+    margin: 0 15px 15px 10px;
+}
+
+.paragraph_margin > p {
+    margin-left: 20px;
+}
+
 }
 
 
+
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) {
+    
+.about_me_container {
+    max-width: 100%;
+    color: #e8e3e3;
+    background-color: #2b2a2a;
+    background-size: cover;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 20px;
+  
+}
+
+.headers {
+    font-size: 46px;
+    text-align: center;
+    color: #050404;
+    padding: 100px 0 20px 0;
+}
+
+.about_pic {
+    width: 300px;
+    float: left;
+    margin: 0 15px 15px 10px;
+}
+
+.paragraph_margin > p {
+    margin-left: 20px;
+    text-align: inherit;
+}
 
 }

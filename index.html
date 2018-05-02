@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="portfolio.css" type="text/css" />
     <link rel="stylesheet" href="pricing.css" type="text/css" />
     <link rel="stylesheet" href="team.css" type="text/css" />
+    <link rel="stylesheet" href="contact.css" type="text/css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,7 +17,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <header>
         <div class="container">
             <nav class="nav_btns">
                 <a href="#">HOME</a>
@@ -27,11 +28,12 @@
                 <a href="#">CONTACT US</a>
             </nav>
         </div>
+    </header>    
         <div class="about_me_container">
             <div class="headers">
                 <span>About me</span>
             </div>
-            <div>
+            <div class="paragraph_margin">
                 <p><img class="about_pic" src="project_imgs/about.jpg" alt="photo of me">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
                     exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros
                     et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
@@ -68,7 +70,7 @@
                 <div class="Events items">
                     <h3>Events</h3>
                     <p>Event photography is the practice of photographing guests and occurrences at any Event or occasion where one may hire a photographer for. Photography by Rodney Bailey at event of International foundation for electoral system This is
-                        a coverage that is used around the world at occasions such as weddings, christenings, naming ceremonies, parties, birthdays, formals, dances, ceremonies.</p>
+                        a coverage that is used around the world at occasions such as weddings, christenings, parties, birthdays, dances, ceremonies.</p>
                 </div>
                 <div class="family items">
                     <h3>Family photography</h3>
@@ -144,18 +146,32 @@
         <div class="team_container">
             <div>
                 <img class="team_imgs"  src="project_imgs/dummy.jpg" alt="team member photo">
+                <h2>Donkey</h2>
+                <p class="team_desc">Proffesional photographer 5 years experience.</p>
             </div>
             <div>
                 <img class="team_imgs"  src="project_imgs/team1.jpg" alt="team member photo">
+                <h2>Emily</h2>
+                <p class="team_desc">Proffesional photographer 7 years experience.</p>
             </div>
             <div>
                 <img class="team_imgs"  src="project_imgs/team2.jpg" alt="team member photo">
+                <h2>Aaron</h2>
+                <p class="team_desc">Proffesional filmmaker 12 years experience.</p>
             </div>
         </div>
-        <div>6</div>
-        <div>7</div>
-    </div>
-
+        <div>
+            <div class="headers">
+                <span>Contact Us</span>
+            </div>
+            <p class="p_center">If you have any questions, feel free to contact us</p>
+            <form>
+                <input type="text" name="customer name" placeholder="Full Name"/>
+                <input type="text" name="customer imail" placeholder="Email"/>
+                <br>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
 </body>
 
 </html>

@@ -1,25 +1,20 @@
-@media (min-width: 400px) {
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1600px) {
     
 body {
-    max-width: 1349px;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.wrapper {
-    display: grid;
-    max-width: auto;
+    max-width: 100%;
     margin: 0;
     padding: 0;
-    grid-template-rows: repeat(8fr);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
    background-image: url(project_imgs/carousel_logo.jpeg);
-   position: relative;
    height: 1000px;
    background-size: cover;
-    
+   background-position: center;
 }
 
 .nav_btns {
@@ -34,7 +29,43 @@ body {
     color: #edeff2;
     
 }
+
 }
 
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) {
+    
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+   background-image: url(project_imgs/carousel_logo.jpeg);
+   height: 1000px;
+   background-size: cover;
+   background-position: center;
+}
+
+.nav_btns {
+    
+    float: left;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.nav_btns > a {
+    padding: 15px;
+    text-decoration: none;
+    color: #edeff2;
+    
+}
+
+}
 
 

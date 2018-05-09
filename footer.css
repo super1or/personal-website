@@ -1,0 +1,129 @@
+footer {
+    background-color: #161616;
+}
+
+.info_container {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.footer_items {
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    text-align: center;
+     
+}
+
+.footer_items:hover {
+    border-color: #babcc1;
+}
+
+.logo_img {
+    background-image: url(logo_imgs/main_logo.png);
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+.contact_list {
+
+    list-style: none;
+}
+
+.address {
+    /*display: inline;*/
+    list-style-image: url(contact_imgs/address.jpg);
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+
+
+}
+
+.phone {
+    /*display: inline;*/
+    list-style-image: url(contact_imgs/phone.png);
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.emails {
+    /*display: inline;*/
+    list-style-image: url(contact_imgs/email.png);
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.social_media {
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+    padding: 30px;
+}
+
+#copyright>a {
+    text-decoration: none;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+.info_container {
+   grid-template-columns: 50%;
+   
+}
+
+.footer_items {
+    border-radius: 5px;
+
+}

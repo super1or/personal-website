@@ -2,7 +2,12 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
     <link rel="stylesheet" href="header.css" type="text/css" />
     <link rel="stylesheet" href="about.css" type="text/css" />
     <link rel="stylesheet" href="services.css" type="text/css" />
@@ -10,6 +15,7 @@
     <link rel="stylesheet" href="pricing.css" type="text/css" />
     <link rel="stylesheet" href="team.css" type="text/css" />
     <link rel="stylesheet" href="contact.css" type="text/css" />
+    <link rel="stylesheet" href="footer.css" type="text/css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,6 +25,7 @@
 <body>
     <header>
         <div class="container">
+            <div class="main_logo"><a href="#">Super1or Photography</a>
             <nav class="nav_btns">
                 <a href="#">HOME</a>
                 <a href="#">ABOUT</a>
@@ -27,151 +34,220 @@
                 <a href="#">PRICING</a>
                 <a href="#">CONTACT US</a>
             </nav>
-        </div>
-    </header>    
-        <div class="about_me_container">
-            <div class="headers">
-                <span>About me</span>
-            </div>
-            <div class="paragraph_margin">
-                <p><img class="about_pic" src="project_imgs/about.jpg" alt="photo of me">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                    exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros
-                    et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
-                    possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
-                    mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur
-                    parum clari, fiant sollemnes in futurum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-                    luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est
-                    usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare
-                    quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
             </div>
         </div>
-        <div class="services">
-            <div class="headers">
-                <span>Services</span>
+    </header>
+    <section>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="project_imgs/slider1.jpeg" alt="First image">
+    </div>
+
+    <div class="item">
+      <img src="project_imgs/slider2.jpg" alt="Second image">
+    </div>
+
+    <div class="item">
+      <img src="project_imgs/slider3.jpg" alt="Third image">
+    </div>
+  </div>
+    <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </section>
+    <div class="about_me_container">
+        <div class="headers">
+            <span>About me</span>
+        </div>
+        <div class="paragraph_margin">
+            <p><img class="about_pic" src="project_imgs/about.jpg" alt="photo of me">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+                possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
+                mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
+                clari, fiant sollemnes in futurum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus
+                legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera
+                gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+        </div>
+    </div>
+    <div class="services">
+        <div class="headers">
+            <span>Services</span>
+        </div>
+        <div class="services_wrapper">
+            <div class="wedding items">
+                <h3>Wedding</h3>
+                <p>Wedding photography is the photography of activities relating to weddings. It encompasses photographs of the couple before marriage (for announcements, portrait displays, or thank you cards) as well as coverage of the wedding and reception
+                    (sometimes referred to as the wedding breakfast in non-US countries).
+                </p>
             </div>
-            <div class="services_wrapper">
-                <div class="wedding items">
-                    <h3>Wedding</h3>
-                    <p>Wedding photography is the photography of activities relating to weddings. It encompasses photographs of the couple before marriage (for announcements, portrait displays, or thank you cards) as well as coverage of the wedding and reception
-                        (sometimes referred to as the wedding breakfast in non-US countries).
-                    </p>
-                </div>
-                <div class="studio items">
-                    <h3>Studio</h3>
-                    <p>A photographic studio (also known as a photography studio or photo studio) is a workspace to take, develop, print and duplicate photographs. Photographic training and the display of finished photographs may also be accommodated in
-                        a photographic studio.</p>
-                </div>
-                <div class="outdoor items">
-                    <h3>Outdoor</h3>
-                    <p>In July 2014, columnist Bob Krist revealed that he was not paid by the magazine in over a year. Many other contributors are rumored to be awaiting payment, as well, and the magazine stopped responding to payment requests.</p>
-                </div>
-                <div class="Events items">
-                    <h3>Events</h3>
-                    <p>Event photography is the practice of photographing guests and occurrences at any Event or occasion where one may hire a photographer for. Photography by Rodney Bailey at event of International foundation for electoral system This is
-                        a coverage that is used around the world at occasions such as weddings, christenings, parties, birthdays, dances, ceremonies.</p>
-                </div>
-                <div class="family items">
-                    <h3>Family photography</h3>
-                    <p>Family photography can be incredibly rewarding, although is not without its potential pitfalls. Some children love having their photos taken and will perform for the camera. Others would rather be anywhere else than standing in a posed
-                        group shot with mum and dad</p>
-                </div>
-                <div class="videography items">
-                    <h3>Videography</h3>
-                    <p>Videography refers to the process of capturing moving images on electronic media (e.g., videotape, direct to disk recording, or solid state storage) and even streaming media. The term includes methods of video production and post-production</p>
-                </div>
+            <div class="studio items">
+                <h3>Studio</h3>
+                <p>A photographic studio (also known as a photography studio or photo studio) is a workspace to take, develop, print and duplicate photographs. Photographic training and the display of finished photographs may also be accommodated in a photographic
+                    studio.</p>
+            </div>
+            <div class="outdoor items">
+                <h3>Outdoor</h3>
+                <p>In July 2014, columnist Bob Krist revealed that he was not paid by the magazine in over a year. Many other contributors are rumored to be awaiting payment, as well, and the magazine stopped responding to payment requests.</p>
+            </div>
+            <div class="Events items">
+                <h3>Events</h3>
+                <p>Event photography is the practice of photographing guests and occurrences at any Event or occasion where one may hire a photographer for. Photography by Rodney Bailey at event of International foundation for electoral system This is a
+                    coverage that is used around the world at occasions such as weddings, christenings, parties, birthdays, dances, ceremonies.</p>
+            </div>
+            <div class="family items">
+                <h3>Family photography</h3>
+                <p>Family photography can be incredibly rewarding, although is not without its potential pitfalls. Some children love having their photos taken and will perform for the camera. Others would rather be anywhere else than standing in a posed
+                    group shot with mum and dad</p>
+            </div>
+            <div class="videography items">
+                <h3>Videography</h3>
+                <p>Videography refers to the process of capturing moving images on electronic media (e.g., videotape, direct to disk recording, or solid state storage) and even streaming media. The term includes methods of video production and post-production</p>
             </div>
         </div>
-        <div class="portfolio">
-            <div class="headers">
-                <span>Portfolio</span>
+    </div>
+    <div class="portfolio">
+        <div class="headers">
+            <span>Portfolio</span>
+        </div>
+        <div class="portfolio_img">
+        </div>
+    </div>
+    <div class="pricing">
+        <div class="headers">
+            <span>Pricing</span>
+        </div>
+        <div class="pricing_container">
+            <div class="packages">
+                <h3>BASIC</h3>
+                <ul class="description">
+                    <li>45 minute session</li>
+                    <li>10 digital images</li>
+                    <li>Online gallery </li>
+                    <li>One outfit</li>
+                </ul>
+                <p class="price">$99</p>
             </div>
-            <div class="portfolio_img">
+            <div class="packages">
+                <h3>STANDARD+</h3>
+                <ul class="description">
+                    <li>One hour session</li>
+                    <li>16 digital images</li>
+                    <li>Online gallery</li>
+                    <li>Two outfits</li>
+                </ul>
+                <p class="price">$159</p>
+            </div>
+            <div class="packages">
+                <h3>PREMIUM</h3>
+                <ul class="description">
+                    <li>90 minute session</li>
+                    <li>All final digitals</li>
+                    <li>Online gallery</li>
+                    <li>Unlimited outfits</li>
+                </ul>
+                <p class="price">$199</p>
+            </div>
+            <div class="packages">
+                <h3>ELITE</h3>
+                <ul class="description">
+                    <li>Two hours session</li>
+                    <li>All final digitals</li>
+                    <li>Online gallery</li>
+                    <li>Unlimited outfits</li>
+                </ul>
+                <p class="price">$299</p>
             </div>
         </div>
-        <div class="pricing">
-            <div class="headers">
-                <span>Pricing</span>
-            </div>
-            <div class="pricing_container">
-                <div class="packages">
-                    <h3>BASIC</h3>
-                    <ul class="description">
-                        <li>45 minute session</li>
-                        <li>10 digital images</li>
-                        <li>Online gallery </li>
-                        <li>One outfit</li>
-                    </ul>
-                    <p class="price">$99</p>
-                </div>
-                <div class="packages">
-                    <h3>STANDARD+</h3>
-                    <ul class="description">
-                        <li>One hour session</li>
-                        <li>16 digital images</li>
-                        <li>Online gallery</li>
-                        <li>Two outfits</li>
-                    </ul>
-                    <p class="price">$159</p>
-                </div>
-                <div class="packages">
-                    <h3>PREMIUM</h3>
-                    <ul class="description">
-                        <li>90 minute session</li>
-                        <li>All final digitals</li>
-                        <li>Online gallery</li>
-                        <li>Unlimited outfits</li>
-                    </ul>
-                    <p class="price">$199</p>
-                </div>
-                <div class="packages">
-                    <h3>ELITE</h3>
-                    <ul class="description">
-                        <li>Two hours session</li>
-                        <li>All final digitals</li>
-                        <li>Online gallery</li>
-                        <li>Unlimited outfits</li>
-                    </ul>
-                    <p class="price">$299</p>
-                </div>
-            </div>
+    </div>
+    <div class="our_team">
+        <div class="headers">
+            <span>Our Team</span>
+        </div>
+        <p class="text_align">Our team consist of 3 members and all of us highly professional</p>
+    </div>
+    <div class="team_container">
+        <div>
+            <img class="team_imgs" src="project_imgs/dummy.jpg" alt="team member photo">
+            <h2>Donkey</h2>
+            <p class="team_desc">Proffesional photographer 5 years experience.</p>
         </div>
         <div>
-            <div class="headers">
-                <span>Our Team</span>
-            </div>
-            <p class="text_align">Our team consist of 3 members and all of us highly professional</p>
-        </div>
-        <div class="team_container">
-            <div>
-                <img class="team_imgs"  src="project_imgs/dummy.jpg" alt="team member photo">
-                <h2>Donkey</h2>
-                <p class="team_desc">Proffesional photographer 5 years experience.</p>
-            </div>
-            <div>
-                <img class="team_imgs"  src="project_imgs/team1.jpg" alt="team member photo">
-                <h2>Emily</h2>
-                <p class="team_desc">Proffesional photographer 7 years experience.</p>
-            </div>
-            <div>
-                <img class="team_imgs"  src="project_imgs/team2.jpg" alt="team member photo">
-                <h2>Aaron</h2>
-                <p class="team_desc">Proffesional filmmaker 12 years experience.</p>
-            </div>
+            <img class="team_imgs" src="project_imgs/team1.jpg" alt="team member photo">
+            <h2>Emily</h2>
+            <p class="team_desc">Proffesional photographer 7 years experience.</p>
         </div>
         <div>
-            <div class="headers">
-                <span>Contact Us</span>
-            </div>
-            <p class="p_center">If you have any questions, feel free to contact us</p>
-            <form>
-                <input type="text" name="customer name" placeholder="Full Name"/>
-                <input type="text" name="customer imail" placeholder="Email"/>
-                <br>
-                <input type="submit" value="Submit"/>
+            <img class="team_imgs" src="project_imgs/team2.jpg" alt="team member photo">
+            <h2>Aaron</h2>
+            <p class="team_desc">Proffesional filmmaker 12 years experience.</p>
+        </div>
+    </div>
+    <div class="contact_wrapper">
+        <div class="headers">
+            <span>Contact Us</span>
+        </div>
+        <p class="p_center">If you have any questions, feel free to contact us.</p>
+        <div class="form_container">
+            <form action="#">
+                <input class="form_control full_name" type="text" name="customer name" placeholder="Full Name">
+                <input class="form_control email" type="email" name="customer imail" placeholder="Email">
+                <textarea class="form_control textarea" name="Some text" placeholder="Message..."></textarea>
             </form>
+            <div class="padding_100px">
+                <button class="sub_btn" type="submit">Submit Message</button>
+            </div>
         </div>
+    </div>
 </body>
+ <footer>
+        <div class="info_container">
+            <div class="footer_items">
+                <div class="logo_img"></div>
+                <p>About company</p>
+            </div>
+            <div class="footer_items">
+                <h4>News & Updates</h4>
+                <p>Here's some news and updates. For more more details follow us on facebook and twitter. Links down below.</p>
+            </div>
+            <div class="footer_items">
+                <h4>Contact Us</h4>
+                <p>You can contact or find us by following address</p>
+                <div>
+                    <ul class="contact_list">
+                        <li class="address"></li>
+                        <li class="phone"></li>
+                        <li class="emails"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <a href="#" class="fa fa-facebook" alt="fb"></a>
+            <a href="#" class="fa fa-twitter" alt="twitter"></a>
+            <a href="#" class="fa fa-pinterest" alt="pinterest"></a>
+            <a href="#" class="fa fa-google" alt="google+"></a>
+        </div>
+        <p id="copyright">Copyright © 2018. Photography by: <a href="#">Superior photography</a>. All right reserved</p>
+    </footer>
 
 </html>

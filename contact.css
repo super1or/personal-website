@@ -1,4 +1,61 @@
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-width: 1600px) {
-      
+    .contact_wrapper {
+        background-color: #303030;
+    }
+    
+    
+    .form_container {
+        margin: 0 auto;
+        width: 80%;
+        background-color: #303030;
+    }
+
+    .form_control {
+        width: 49%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding: 15px;
+
+    }
+
+    .textarea {
+        height: 250px;
+        width: 100%;
+        resize: none;
+    }
+
+    .email {
+        float: right;
+    }
+
+    .p_center {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    button {
+        margin: auto;
+        display: block;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+    }
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+    .form_control {
+        padding: 15px 0px 15px 15px;
+    }
+
+
+
+    .textarea {
+        padding: 10px 0 0 10px;
+    }
+
+}

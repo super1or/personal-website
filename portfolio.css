@@ -1,15 +1,5 @@
-@media (max-width: 1600px) {
+/*.portfolio {*/
+/*    background-color: #161616;*/
 
-    .portfolio {
-        background-color: #161616;
+/*}*/
 
-    }
-
-    .portfolio_img {
-        background-image: url(portfolio/collage.jpg);
-        background-repeat: no-repeat;
-        background-size: 1349px;
-        height: 1349px;
-    }
-
-}

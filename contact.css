@@ -1,61 +1,71 @@
-    .contact_wrapper {
-        background-color: #303030;
-    }
-    
-    
-    .form_container {
-        margin: 0 auto;
-        width: 80%;
-        background-color: #303030;
+.contact_wrapper {
+    background-color: #303030;
     }
 
-    .form_control {
-        width: 49%;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        margin-bottom: 20px;
-        padding: 15px;
 
+.form_container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #303030;
     }
 
-    .textarea {
-        height: 250px;
-        width: 100%;
-        resize: none;
-    }
+.form_control {
+    width: 49%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
 
-    .email {
-        float: right;
-    }
+}
 
-    .p_center {
-        text-align: center;
-        margin-bottom: 50px;
-    }
+.textarea {
+    height: 250px;
+    width: 100%;
+    resize: none;
+}
 
-    button {
-        margin: auto;
-        display: block;
-        padding: 10px 15px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        background-color: white;
-    }
+.email {
+    float: right;
+}
 
+#p_center {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #f2efef;
+}
+
+.padding_100px {
+    padding-bottom: 50px;
+}
+
+button {
+    margin: auto;
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bab8b8;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,.25);
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
 
-
-    .form_control {
-        padding: 15px 0px 15px 15px;
-    }
-
+.form_control {
+    padding: 15px 0px 15px 15px;
+}
 
 
-    .textarea {
-        padding: 10px 0 0 10px;
-    }
+
+.textarea {
+    padding: 10px 0 0 10px;
+}
 
 }
+    

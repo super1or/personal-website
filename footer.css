@@ -7,15 +7,18 @@ footer {
     grid-template-columns: 25% 25% 25%;
     grid-gap: 20px;
     justify-content: space-evenly;
-    margin: 0;
+    margin-top: 50px;
+    
 }
 
 .footer_items {
-    height: 250px;
+    max-width: 250px;
     border: 1px solid #ccc;
     border-radius: 10%;
     text-align: center;
-     
+    padding: 5px;
+    color: #e8e3e3;
+    margin-bottom: 100px;
 }
 
 .footer_items:hover {
@@ -35,52 +38,49 @@ h4 {
 }
 
 .contact_list {
-
     list-style: none;
+    float: left;
+    padding: 5px;
 }
 
 .address {
-    /*display: inline;*/
-    list-style-image: url(contact_imgs/address.jpg);
     width: 25px;
     height: 25px;
-    margin-bottom: 10px;
-
-
+    margin-bottom: 3px;
 }
 
 .phone {
-    /*display: inline;*/
-    list-style-image: url(contact_imgs/phone.png);
     width: 25px;
     height: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .emails {
-    /*display: inline;*/
-    list-style-image: url(contact_imgs/email.png);
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 3px;
 }
 
 .social_media {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .fa {
-    padding: 10px;
+    display: inline-block;
+    padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 70px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
     margin: 5px;
+    border-radius: 50%;
 }
 
 .fa:hover {
     opacity: 0.7;
+    color: #fff;
+    text-decoration: none;
 }
 
 .fa-facebook {
@@ -106,7 +106,8 @@ h4 {
 
 #copyright {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    color: #e8e3e3;
 }
 
 #copyright>a {

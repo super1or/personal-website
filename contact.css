@@ -26,6 +26,7 @@
 
 .email {
     float: right;
+    flex-wrap: wrap;
 }
 
 #p_center {

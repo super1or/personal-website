@@ -1,20 +1,24 @@
 $('.sl').slick({
     autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 1000,
+    autoplaySpeed: 4000,
+    arrows: true,
+    asNavFor: '.sl2'
+});
+
+$('.sl2').slick({
     dots: true,
     arrows: false,
     centerMode: true,
-    centerPadding: '25px',
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    centerPadding: '45px',
+    slidesToShow: 5,
+    asNavFor: '.sl',
+    focusOnSelect: true,
     responsive: [
     {
       breakpoint: 768,
       settings: {
-        centerMode: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        centerMode: false,
+        slidesToShow: 3,
         infinite: true,
         dots: true,
       }
@@ -22,12 +26,12 @@ $('.sl').slick({
      {
       breakpoint: 480,
       settings: {
-        centerMode: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        centerMode: false,  
+        slidesToShow: 2,
         infinite: true,
         dots: false,
       }
     }
   ]
 });
+

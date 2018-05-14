@@ -6,15 +6,15 @@ footer {
     display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 50px;
-    
+
 }
 
 .footer_items {
     max-width: 250px;
     border: 1px solid #ccc;
-    border-radius: 10%;
+    border-radius: 2px;
     text-align: center;
     padding: 5px;
     color: #e8e3e3;
@@ -26,21 +26,63 @@ footer {
 }
 
 .logo_img {
-    background-image: url(logo_imgs/main_logo.png);
-    background-position: center;
-    background-size: 200px;
-    background-repeat: no-repeat;
-    height: 200px;
+    margin: 10px;
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+    background: #afafaf;
+}
+
+.lds-facebook div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0;
+    background: #353434;
+}
+
+@keyframes lds-facebook {
+    0% {
+        top: 6px;
+        height: 51px;
+    }
+    50%,
+    100% {
+        top: 19px;
+        height: 26px;
+    }
 }
 
 h4 {
     padding-bottom: 20px;
 }
 
-.contact_list {
+.contact_list p {
     list-style: none;
-    float: left;
-    padding: 5px;
+    text-align: left;
+    padding: 10px;
+
 }
 
 .address {
@@ -68,13 +110,15 @@ h4 {
 
 .fa {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-    width: 70px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px;
     border-radius: 50%;
+    border: 1px solid;
 }
 
 .fa:hover {
@@ -84,23 +128,23 @@ h4 {
 }
 
 .fa-facebook {
-    background: #3B5998;
+    background: #161616;
     color: white;
 
 }
 
 .fa-twitter {
-    background: #55ACEE;
+    background: #161616;
     color: white;
 }
 
 .fa-pinterest {
-    background: #cb2027;
+    background: #161616;
     color: white;
 }
 
 .fa-google {
-    background: #dd4b39;
+    background: #161616;
     color: white;
 }
 
@@ -111,21 +155,26 @@ h4 {
 }
 
 #copyright>a {
+    color: #6b6767;
     text-decoration: none;
 }
 
+#copyright>a:hover {
+    color: #d8d6d6;
+    text-decoration: underline;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
 
-.info_container {
-   grid-template-columns: 50%;
-   
-}
+    .info_container {
+        grid-template-columns: 50%;
 
-.footer_items {
-    border-radius: 5px;
-}
+    }
+
+    .footer_items {
+        border-radius: 5px;
+    }
 
 }

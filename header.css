@@ -1,78 +1,158 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
+    box-sizing: border-box;
     max-width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.nav_container {
+    position: absolute;
     width: 100%;
-    height: 70px;
-    background-color: transparent 0;
-    margin: 0;
+    z-index: 999;
+    background: none;
+    padding: 20px;
+}
+
+.my_navbar .my_item {
+    display: inline;
+}
+.nav_items {
+    float: right;
+}
+
+.my_item .my_link {
+    padding: 15px;
+    text-decoration: none;
+    color: #f4efef;
+    margin: 2px;
+    transition: .5s;
+}
+
+.my_item .my_link:hover {
+    background-color: #232222;
+    border: 1px solid;
+    border-radius: 2px;
+    opacity: .4;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+    color: #cecece;
+    word-spacing: 10px;
+    transition: .5s;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fa-angle-double-left {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1080px) {
+.my_item .my_link {
+    font-size: 80%; 
+}
+    
+}
+
+@media only screen and (max-width: 1000px) {
+.my_navbar .my_item {
+    display: block;
+}
+
+.nav_items {
+    float: none;
+    margin-top: 20px;
+}
+
+.my_navbar {
     padding: 0;
 }
 
-.main_logo {
-    float: left;
-    margin: 30px 0 0 30px;
-    color: #edeff2;
+.my_item .my_link {
+    padding: 10px;
 }
 
-.main_logo>a {
-    font-family: 'Monoton', cursive;
-    text-decoration: none;
-    color: #edeff2;
-    font-size: 20px;
-    padding: 15px;
+.my_item {
+    margin-bottom: 20px; 
+}
+    
 }
 
-.main_logo>a:hover {
-    background-color: transparent;
-    opacity: 0.5;
+@media only screen and (max-width: 768px) {
+.my_item .my_link {
+    font-size: 12px;
 }
 
-
-
-.nav_btns {
-    position: absolute;
-    right: 30px;
-    top: 30px;
+.my_item {
+    margin-bottom: 10px;
 }
 
-.nav_btns>a {
-    padding: 15px;
-    text-decoration: none;
-    color: #edeff2;
-}
-
-.nav_btns a:hover {
-    opacity: .5;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-.nav_btns {
-    float: left;
-    margin-left: 50px;
-    padding-top: 10px;
-    clear: right;
-    z-index: 10;
+.logo {
+    font-size: 60%;
 }
 
 }
 
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-
-
-.nav_btns {
-    font-size: 30px;
-    margin: 150px 150px;
+@media only screen and (max-width: 600px) {
+.my_item .my_link {
+    font-size: 60%;
 }
 
+.my_item {
+    margin-bottom: 5px; 
+}
+
+.logo {
+    font-size: 50%;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+.my_item .my_link {
+    font-size: 50%;
+    padding: 5px;
+}
+
+.my_item {
+    margin-bottom: 0;
+}
+
+.logo {
+    font-size: 40%;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+.my_item .my_link {
+    font-size: 40%;
+    padding: 5px;
+}
+
+.nav_items {
+    margin-top: 5px;
+}
+
+.nav_container {
+    padding: 5px;
+}
+
+.logo {
+    font-size: 30%;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+.visible_md {
+    display: none;
+}    
 }

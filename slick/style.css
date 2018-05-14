@@ -12,9 +12,29 @@ a{
 }
 
 .portfolio {
-  max-width: 1400px;
-  margin: 50px auto;
+  max-width: 1000px;
+  margin: 0px auto;
   padding-bottom: 20px;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1001;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 }
 
 .slick-dots li button {
@@ -25,15 +45,15 @@ a{
 
 .slick-dots li button:before {
   content: '';
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background: #777;
   opacity: 1;
   border-radius: 50%;
   box-shadow: 1px 1px 2px 1px;
   top: 50%;
   left: 50%;
-  margin: -5px 0 0 -5px;
+  margin: -4px 0 0 -4px;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s
@@ -48,6 +68,25 @@ a{
 .slick-dots li button:hover:before,
 .slick-dots li.slick-active button:before  {
   background: #fff;
+}
+
+.sl2 {
+  margin: 20px 0 0;
+}
+
+.sl2_slider {
+  padding: 5px;
+}
+
+.sl2_slider img {
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.sl2_slider img:hover {
+  border: 1px solid #aeb1b7;
 }
 
 /*Адаптивность картинок и видео*/

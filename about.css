@@ -17,26 +17,39 @@
 
 .about_pic {
     position: static;
-    width: 220px;
+    max-width: 270px;
     float: left;
-    margin: 0 15px 15px 10px;
+    margin-right: 20px;
 }
 
 .paragraph_margin>p {
-    margin: 0 20px;
+    /*margin: 0 20px;*/
     line-height: 1.6;
+    max-width: 1000px;
+    text-align: justify;
+    margin: 20px auto;
+    font-size: 16px;
 }
 
+
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+
+.paragraph_margin {
+    margin: 20px;
+}
+    
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
 .about_pic {
-    width: 300px;
-    margin-left: 0;
+    max-width: 300px;
+    margin-bottom: 20px;
 }
 
-.paragraph_margin>p {
+.paragraph_margin {
     margin: 20px;
 }
 

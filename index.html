@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <!--Fonts-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans|Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans|Roboto|Monoton" rel="stylesheet">
     <!--Styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="flickr.css" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
     <link rel="stylesheet" href="header.css" type="text/css" />
     <link rel="stylesheet" href="about.css" type="text/css" />
     <link rel="stylesheet" href="services.css" type="text/css" />
@@ -23,18 +25,16 @@
     <link rel="stylesheet" href="contact.css" type="text/css" />
     <link rel="stylesheet" href="loading.css" type="text/css" />
     <link rel="stylesheet" href="footer.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Superior photography</title>
 </head>
 
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="home">
             <nav class="nav_container">
-                <a class="my_link logo" href="#">Superior photography</a>
+                <a class="my_link logo" href="https://personal-website-trickyone.c9users.io/index.html">Superior photography</a>
                 <div class="lds-css ng-scope">
-                    <div style="width:100%;height:100%" class="lds-flickr">
+                    <div class="lds-flickr">
                         <div></div>
                         <div></div>
                         <div></div>
@@ -43,22 +43,22 @@
                 <div class="nav_items">
                     <ul class="my_navbar">
                         <li class="my_item active">
-                            <a class="my_link" href="#">HOME<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
+                            <a class="my_link" href="#home">HOME<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
                         </li>
                         <li class="my_item">
-                            <a class="my_link" href="#">ABOUT<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
+                            <a class="my_link" href="#about">ABOUT<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
                         </li>
                         <li class="my_item">
-                            <a class="my_link" href="#">PORTFOLIO<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
+                            <a class="my_link" href="#services">SERVICES<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
                         </li>
                         <li class="my_item">
-                            <a class="my_link" href="#">SERVICES<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
+                            <a class="my_link" href="#portfolio">PORTFOLIO<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
                         </li>
                         <li class="my_item">
-                            <a class="my_link" href="#">PRICING<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
+                            <a class="my_link" href="#pricing">PRICING<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
                         </li>
                         <li class="my_item">
-                            <a class="my_link" href="#">CONTACT<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
+                            <a class="my_link" href="#contact">CONTACT<span class="visible_md"><i class="fas fa-angle-double-left"></i></span></a>
                         </li>
                     </ul>
                 </div>
@@ -78,7 +78,7 @@
             </div>
         </div>
     </header>
-    <div class="about_me_container">
+    <div class="about_me_container" id="about">
         <div class="headers">
             <span>About me</span>
         </div>
@@ -87,13 +87,13 @@
                 be the raw determination of a swimmer lunging to touch the wall, the laughter of a small child as she plays with a sibling, or that special feeling you have as you witness a once in a lifetime occasion. Whether photographing athletes for
                 a specialty publication, or shooting a family photo session, this is my goal as a professional photographer, to capture those emotions, to record those moments, and to preserve those memories forever. My ultimate reward will come years
                 later---when you look at your photographs and those memories once again come to life.</p>
-            <br>
+            <!--<br>-->
             <p>I have been a full-time professional photographer for 7 years and provided many families lasting and beautiful memories through my photographs. Family references are available upon request. My corporate clients include Hamilton College, NBT
                 Bank, Paragon Racquet and Athletic Club, Pratt and Whitney and the University of Pennsylvania. I am a member of Nikon Professional Services and the Professional Photographers of America. I live and work in Clinton, NY (Central New York)
                 and look forward to discussing your projects at your convenience.</p>
         </div>
     </div>
-    <div class="services">
+    <div class="services" id="services">
         <div class="headers">
             <span>Services</span>
         </div>
@@ -130,7 +130,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="headers">
             <span>Portfolio</span>
         </div>
@@ -167,7 +167,7 @@
             <div class="sl2_slider"><img src="portfolio/slm14.jpg" alt="img"></div>
         </div>
     </div>
-    <div class="pricing">
+    <div class="pricing" id="pricing">
         <div class="headers">
             <span>Pricing</span>
         </div>
@@ -241,7 +241,7 @@
             <p class="team_desc">Proffesional filmmaker 12 years experience.</p>
         </div>
     </div>
-    <div class="contact_wrapper">
+    <div class="contact_wrapper" id="#contact">
         <div class="headers">
             <span>Contact Us</span>
         </div>
@@ -283,26 +283,24 @@
                 <p>You can contact or find us by following address</p>
                 <div class="contact_list">
                     <p><img class="address" src="contact_imgs/address.jpg" alt="Address"/>123 Avenue Street</p>
-                    <p><img class="phone" src="contact_imgs/phone.png" alt="Phone"/>+1 800 325 64</p>
+                    <p><img class="phone" src="contact_imgs/phone.jpg" alt="Phone"/>+1 800 325 64</p>
                     <p><img class="emails" src="contact_imgs/email.png" alt="Email"/>Example@gmail.com</p>
                 </div>
             </div>
         </div>
         <div class="social_media">
-            <a href="#" class="fa fa-facebook" alt="fb"></a>
-            <a href="#" class="fa fa-twitter" alt="twitter"></a>
-            <a href="#" class="fa fa-pinterest" alt="pinterest"></a>
-            <a href="#" class="fa fa-google" alt="google+"></a>
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.pinterest.com/olehodynets/" target="_blank" class="fa fa-pinterest"></a>
+            <a href="https://plus.google.com/104975968273849092170" target="_blank" class="fa fa-google"></a>
         </div>
         <p id="copyright">Copyright © 2018. Photography by: <a href="#">Superior photography</a>. All right reserved</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/slider.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
 
 </body>
 
